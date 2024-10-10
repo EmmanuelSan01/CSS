@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(#FFFFFF, #E6E6E6, #808080);
+  width: 1600px;
+  height: 1200px;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  background-color: white;
+  margin-left: 300px;
+  margin-top: 200px;
+  padding: 43px;
+  width: 1400px;
+  height: 800px;
+}
+
+div {
+  font-size: 40px;
+  font-family: OpenSansRegular;
+  font-family: "Open Sans";
+  font-size: 30px;
+  margin-left: 700px;
+}
+
+
