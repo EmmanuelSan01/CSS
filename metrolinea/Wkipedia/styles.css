@@ -1,0 +1,67 @@
+.wikilogo{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 50px;
+}
+
+.wikipedia{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 150px;
+    height: 25px;
+}
+
+.wikitagline{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 170px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 500px;
+    width: 400px;
+    height: 25px;
+}
+.searchbutton{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 907px;
+    width: 75px;
+    height: 31px;
+}
+
+.topline1{
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.toptxt1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.toptxt2{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.topline2{
+    position: absolute;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.welcome{
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    border: solid black 1px;
+    padding: 10px;
+}
