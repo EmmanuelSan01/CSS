@@ -1,0 +1,12 @@
+.background {
+  position: absolute;
+  background-color: black;
+  width: 1920px;
+  height: 1080px;
+}
+
+.backgroundimg {
+  position: absolute;
+  width: 1920px;
+  margin-top: -100px;
+}

@@ -1,0 +1,180 @@
+.background {
+  position: absolute;
+  background-color: black;
+  width: 1920px;
+  height: 1080px;
+}
+
+.backgroundimg {
+  position: absolute;
+  width: 1920px;
+  margin-top: -100px;
+}
+
+.block {
+  background-color: white;
+  position: absolute;
+  width: 936px;
+  height: 761px;
+  margin-top: 160px;
+  margin-left: 492px;
+  border-radius: 70px
+}
+
+.logo {
+  position: absolute;
+  width: 130px;
+  margin-top: 37px;
+  margin-left: 417px;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+.MyriadProRegular {
+  font-family: 'Myriad Pro Regular';
+  font-size: 40px;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed'), url('MYRIADPRO-COND.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Condensed Italic'), url('MYRIADPRO-CONDIT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light'), url('MyriadPro-Light.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Semibold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold Italic'), url('MYRIADPRO-SEMIBOLDIT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed'), url('MYRIADPRO-BOLDCOND.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url('MYRIADPRO-BOLD.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Italic'), url('MYRIADPRO-BOLDIT.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro Bold Condensed Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold Condensed Italic'), url('MYRIADPRO-BOLDCONDIT.woff') format('woff');
+}
+
+.texttop {
+  position: absolute;
+  width: 500px;
+  height: 96px;
+  margin-top: 176px;
+  margin-left: 218px;
+  font-size: 40px;
+  font-family: 'Myriad Pro Regular';
+}
+
+.textmiddle {
+  position: absolute;
+  width: 522px;
+  height: 20px;
+  margin-top: 295px;
+  margin-left: 207px;
+  font-size: 20px;
+  font-family: 'Myriad Pro Regular';
+}
+
+
+
+.form {
+  position: absolute;
+  width: 522px;
+  height: 20px;
+  margin-top: 338px;
+  margin-left: 155px;
+  font-size: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+  position: absolute;
+  width: 610px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 1rem;
+  border-radius: 20px
+}
+
+input[type="submit"] {
+  background-color: orangered;
+  width: 336px;
+  height: 70px;
+  margin-top: 563px;
+  margin-left: 300px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  border-radius: 50px
+}
+
+input[type="submit"]:hover {
+  background-color: orange;
+}
+
+.textbottom {
+  position: absolute;
+  width: 588px;
+  height: 20px;
+  margin-top: 50px;
+  margin-left: 174px;
+  font-size: 15px;
+  font-family: 'Myriad Pro Regular';
+}
