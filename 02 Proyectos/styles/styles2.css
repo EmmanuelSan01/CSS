@@ -101,3 +101,37 @@
     padding-left: 20px;
 
 }
+
+.header1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #00F;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #AAA;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list{
+    border: 2px solid #0F0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paragraph{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.listelement{
+    margin: 15px;
+}
+
