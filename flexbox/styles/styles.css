@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color:coral;
+    height: 100vh;
+}
+
+.box{
+    margin: 8px;
+    background-color:darkseagreen;
+}
