@@ -1,0 +1,17 @@
+body{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    margin: 25px;
+    row-gap: 2em;
+    column-gap: 2em;
+
+}
+
+.box{
+    height: 10lh;
+    background-color: palegreen;
+    border: 2px solid dodgerblue;
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: sans-serif;
+}
