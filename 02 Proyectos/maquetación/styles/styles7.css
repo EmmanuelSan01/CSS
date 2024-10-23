@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    margin: 0px;
+    min-height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    font-family: sans-serif;
+}
+
+body > * {
+    outline: 1px solid gray;
+}
+  
+
+header{
+    display: grid;
+    background-color: #ff6347;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+nav {
+    display: grid;
+    background-color: #20b2aa;
+    border-radius: 0.5vw;
+    grid-row: -2 / -1;
+    grid-column: -2 / -1;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    color: white;
+}
+
+.easter-egg {
+    color: #20b2aa;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1 / -1;
+}
+
+main > * {
+    outline: 1px solid gray;
+}
+
+article {
+    display: grid;
+    background-color: #add8e6;
+    padding: 1vw;
+}
+
+article section {
+    display: grid;
+    background-color: #e0ffff;
+    outline: 1px solid #ffa782;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 1vw;
+    gap: 1vw;
+}
+
+article div {
+    background-color: #d3d3d3;
+    outline: 1px solid gray;
+}
+
+aside {
+    display: grid;
+    background-color: #ffefd5;
+    padding: 1vw;
+}
+
+aside section {
+    display: grid;
+    background-color: #ffdab9;
+    outline: 1px solid #ffa782;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 1vw;
+    gap: 1vw;
+}
+
+aside div {
+    background-color: #eee8aa;
+    outline: 1px solid gray;
+}
+
+footer {
+    background-color: #db7093;
+    grid-column: 1 / -1;
+    align-content: center;
+    justify-items: center;
+    color: white;
+}
+
+/* 768 < width < 960 */
+
+@media (min-width: 768px) and (max-width: 959px) {
+    body {
+        grid-template-rows: 1fr 6fr 1fr;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 767 or less */
+
+@media (max-width: 767px) {
+    body {
+        grid-template-rows: 1fr 8fr 1fr;
+    }
+
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+    }
+}
