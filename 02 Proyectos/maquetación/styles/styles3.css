@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1vw;
+    margin: 1vw;
+    height: 100vh;
+}
+
+[class*="orange"] {
+    background-color: #ff6900;
+}
+
+.orange-left {
+    grid-row: span 2;
+}
+
+.green {
+    background-color: #00696c;
+    grid-row: span 2;
+}
+
+[class*="magenta"] {
+    background-color: #6a0934;
+}
+
+.magenta-center {
+    grid-row: span 2;
+}

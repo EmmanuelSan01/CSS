@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1vw;
+    margin: 1vw;
+    height: 100vh;
+}
+
+.orange{
+    background-color: #ff6900;
+}
+
+.green{
+    background-color: #00696c;
+}
+
+.magenta{
+    background-color: #6a0934;
+}
