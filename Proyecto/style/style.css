@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    margin: 0px;
+    background-color: #fff35f;
+    background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: #feb4cd;
+    background-size: 100vw 50vh;
+    background-repeat: no-repeat;
+    
+}
+
+.Contacto {
+    border-bottom: 2px solid black;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-self: right;
+    grid-column: -2 / -1;  
+}
+
+@font-face {
+    font-family: 'Gulfs Display';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gulfs Display'), url('GulfsDisplay-Normal.woff') format('woff');
+}
+
+.GulfsDisplay {
+    font-family: 'Gulfs Display';
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #095bf9;
+    font-family: 'Gulfs Display';
+    font-size: 80px;
+}
+
+.home-center {
+    width: calc(100% / 3);
+    margin-left: calc(100% / 3);
+    border-radius: 20vw;
+    outline: 2px solid black;
+}
