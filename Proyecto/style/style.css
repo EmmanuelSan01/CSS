@@ -2451,7 +2451,7 @@ blockquote {
 
 .hero__circle {
   z-index: 6;
-  background-image: url("https://cdn.prod.website-files.com/5fc3edc939e45606bb1beaed/60775529fa8ba96b3888b03f_hero_circle-new-01.png");
+  background-image: url("../img/hero_circle-new-01.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2707,7 +2707,7 @@ blockquote {
 }
 
 .hero__fill1 {
-  background-image: url("https://cdn.prod.website-files.com/5fc3edc939e45606bb1beaed/5fcb349305dfbd5c7d34650e_6016108-R1-E004.jpg");
+  background-image: url("../img/hero__fill1.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2717,7 +2717,7 @@ blockquote {
 
 .hero__fill2 {
   z-index: 1;
-  background-image: url("https://cdn.prod.website-files.com/5fc3edc939e45606bb1beaed/5fcb347779d1ee77b54fd806_6016106-R1-E009.jpg");
+  background-image: url("../img/hero__fill2.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2727,7 +2727,7 @@ blockquote {
 }
 
 .hero__fill3 {
-  background-image: url("https://cdn.prod.website-files.com/5fc3edc939e45606bb1beaed/5fcb345ca7976e063cad524a_6016104-R1-E003.jpg");
+  background-image: url("../img/hero__fill3.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
