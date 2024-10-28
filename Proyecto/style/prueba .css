@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+    .pricing_top-right {
+      border-top: 1.1px solid #000;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+  
+    .pricing_top-small.is-yellow {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      width: auto;
+    }
+  
+    .pricing_top-small {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      width: auto;
+    }
+  
+    .pricing_top-small.is-blue {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      width: auto;
+    }
+  
+    .pricing_photo {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+}
