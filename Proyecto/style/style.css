@@ -761,6 +761,13 @@ nav {
   font-size: 1.9em;
 }
 
+.pricing_form-left > hr{
+  height: 4px;
+  background-color: var(--tomato);
+  width: 100%;
+  border: none;
+}
+
 .tricks-press {
   background-color: var(--tomato);
   text-align: center;
@@ -921,52 +928,27 @@ nav {
   margin-bottom: 0;
   padding-left: 2.3em;
   padding-right: 2.3em;
+  display: inline-flex;
 }
 
 .footer_paragraph {
   margin-bottom: 2.1em;
 }
 
+.date {
+  color: var(--tomato);
+  font-size: 3em;
+}
+
 .footer_arrow-back {
   justify-content: center;
   align-items: center;
-  width: 1.2em;
-  height: 1.2em;
+  width: 3.7em;
+  height: 3.7em;
   margin-right: 1.3em;
   display: flex;
   inset: 0% 0% 0% auto;
-}
-
-.w-slider-arrow-left,
-.w-slider-arrow-right {
-  cursor: pointer;
-  color: #fff;
-  -webkit-tap-highlight-color: #0000;
-  -webkit-user-select: none;
-  user-select: none;
-  width: 80px;
-  margin: auto;
-  font-size: 40px;
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-}
-
-.w-slider-arrow-left [class^="w-icon-"],
-.w-slider-arrow-right [class^="w-icon-"],
-.w-slider-arrow-left [class*=" w-icon-"],
-.w-slider-arrow-right [class*=" w-icon-"] {
-  position: absolute;
-}
-
-.w-slider-arrow-left:focus,
-.w-slider-arrow-right:focus {
-  outline: 0;
-}
-
-.w-slider-arrow-left {
-  z-index: 3;
-  right: auto;
+  margin-left: 9vw;
 }
 
 .footer_arrow {
@@ -978,9 +960,16 @@ nav {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  width: 1.2em;
-  height: 1.2em;
+  width: 3.7em;
+  height: 3.7em;
   display: flex;
+}
+
+.footer_right > hr{
+  height: 4px;
+  background-color: var(--tomato);
+  border: none;
+  width: 90%;
 }
 
 .footer_bottom {
@@ -1369,6 +1358,10 @@ nav {
   .footer_right {
     width: 100%;
     padding-left: 0;
+  }
+
+  .footer_arrow-back {
+    margin-left: 28.5vw;
   }
 
   .footer_right.is-404 {
